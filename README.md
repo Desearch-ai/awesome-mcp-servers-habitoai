@@ -1106,6 +1106,7 @@ A categorized directory of Model Context Protocol (MCP) servers for connecting A
 - [AnySearch MCP Server](https://github.com/anysearch-ai/anysearch-mcp-server) - Offers general and vertical search, batch queries, and URL content extraction.
 
 - [Agent Search MCP](https://github.com/lennney/agent-search-mcp) - Performs free-first English and Chinese web search with inspectable multi-source evidence.
+- [Desearch MCP](https://github.com/Desearch-ai/mcp-desearch) - Gives agents AI search across web, Reddit, Hacker News, arXiv and Wikipedia, plus X post, user and trend lookups and page extraction. Works over stdio or the hosted endpoint ([docs](https://www.desearch.ai/docs/guide/sdk/mcp)).
 - [Driflyte MCP Server](https://github.com/serkan-ozal/driflyte-mcp-server) - Retrieves topic-specific knowledge from recursively crawled and indexed web pages.
 - [Gopher and Gemini MCP](https://github.com/cameronrye/gopher-mcp) - Browses resources on the Gopher and Gemini protocols.
 - [pdfmux](https://github.com/NameetP/pdfmux) - Extracts PDF content and flags pages that could not be read reliably.
@@ -1473,16 +1474,42 @@ A categorized directory of Model Context Protocol (MCP) servers for connecting A
 
 
 
-## Frequently Asked Questions
-
-#### What is an MCP server?
-An MCP server exposes tools, resources, or prompts over the Model Context Protocol so an AI application can connect to a service or local capability.
-
-#### How do I connect to a server?
-Follow the server's setup guide. Local servers use a command and arguments; hosted servers use a remote URL and may require authorization. Client setup and transport support vary.
-
-#### Where can I find published server manifests?
-The [official MCP Registry](https://registry.modelcontextprotocol.io/) lists published server metadata.
-
-<!-- MCP_LIST_END -->
-
+## Frequently Asked Questions
+
+
+
+
+
+#### What is an MCP server?
+
+
+An MCP server exposes tools, resources, or prompts over the Model Context Protocol so an AI application can connect to a service or local capability.
+
+
+
+
+
+#### How do I connect to a server?
+
+
+Follow the server's setup guide. Local servers use a command and arguments; hosted servers use a remote URL and may require authorization. Client setup and transport support vary.
+
+
+
+
+
+#### Where can I find published server manifests?
+
+
+The [official MCP Registry](https://registry.modelcontextprotocol.io/) lists published server metadata.
+
+
+
+
+
+<!-- MCP_LIST_END -->
+
+
+
+
+
